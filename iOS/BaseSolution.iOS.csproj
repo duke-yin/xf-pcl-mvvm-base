@@ -7,8 +7,8 @@
     <ProjectGuid>{D00D6E0B-94A2-430E-A802-279C6E49DF91}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Sunstate.iOS</RootNamespace>
-    <AssemblyName>Sunstate.iOS</AssemblyName>
+    <RootNamespace>BaseSolution.iOS</RootNamespace>
+    <AssemblyName>BaseSolution.iOS</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
