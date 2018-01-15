@@ -2,11 +2,11 @@
 
 namespace BaseSolution.Core.ViewModel
 {
-    public class DetailsViewModel : BaseViewModel
+    public class CartViewModel : BaseViewModel
     {
         private readonly INavigationService _navigationService;
 
-        public DetailsViewModel(INavigationService navigationService)
+        public CartViewModel(INavigationService navigationService)
         {
             _navigationService = navigationService;
         }

@@ -2,6 +2,6 @@
 {
     public enum AppPages
     {
-        MainPage, DetailsPage
+        MainPage, DetailsPage, MajorCategoriesPage
     }
 }

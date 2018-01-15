@@ -4,6 +4,7 @@ using BaseSolution.Core.Pages;
 using BaseSolution.Core.ViewModel;
 using Xamarin.Forms;
 using BaseSolution.Core.Infrastructure.Services;
+using BaseSolution.Core.CustomControls;
 
 namespace BaseSolution.Core
 {
@@ -33,7 +34,9 @@ namespace BaseSolution.Core
 
                 // Configure pages:
                 navigationService.Configure(AppPages.MainPage, typeof(MainPage));
-                navigationService.Configure(AppPages.DetailsPage, typeof(DetailsPage));
+                navigationService.Configure(AppPages.DetailsPage, typeof(CartPage));
+                navigationService.Configure(AppPages.MajorCategoriesPage, typeof(MajorCategoriesPage));
+
 
                 // Register NavigationService in IoC container:
                 SimpleIoc.Default.Register<INavigationService>(() => navigationService);
@@ -42,14 +45,13 @@ namespace BaseSolution.Core
             else
                 navigationService = SimpleIoc.Default.GetInstance<INavigationService>();
 
-            // Create new Navigation Page and set MainPage as its default page:
-            var firstPage = new NavigationPage(new MainPage());
 
-            // Set Navigation page as default page for Navigation Service:
-            navigationService.Initialize(firstPage);
+
+
+            var tabPage = new MainPage();
 
             // You have to also set MainPage property for the app:
-            MainPage = firstPage;
+            MainPage = tabPage;
         }
 
 

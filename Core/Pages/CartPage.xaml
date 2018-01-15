@@ -2,9 +2,9 @@
 <pages:BasePage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     xmlns:pages="clr-namespace:BaseSolution.Core.Pages;assembly=Core" 
-    x:Class="BaseSolution.Core.Pages.DetailsPage" 
-    Title="Details page">
+    x:Class="BaseSolution.Core.Pages.CartPage" 
+    Title="CART">
     <pages:BasePage.Content>
-        <Label HorizontalOptions="Center" VerticalOptions="Center" Text="Details Page" TextColor="#626d71" />
+        <Label HorizontalOptions="Center" VerticalOptions="Center" Text="Cart Empty" TextColor="#626d71" />
     </pages:BasePage.Content>
 </pages:BasePage>

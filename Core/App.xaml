@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms" 
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="BaseSolution.Core.App">
-	<Application.Resources>
-		<!-- Application resource dictionary -->
-	</Application.Resources>
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:customUI="clr-namespace:BaseSolution.Core.CustomControls;assembly=Core"
+    x:Class="BaseSolution.Core.App">   
+    <Application.Resources>
+        <!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <ControlTemplate x:Key="NavigationPageTemplate">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <customUI:CustomSearchBar Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Start" Placeholder="Search" BackgroundColor="#007BC2" />
+                    <ContentView Grid.Row="1">
+                        <ContentPresenter />
+                    </ContentView>
+                </Grid>
+            </ControlTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>

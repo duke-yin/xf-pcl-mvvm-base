@@ -1,8 +1,8 @@
 ﻿namespace BaseSolution.Core.Pages
 {
-    public partial class DetailsPage : BasePage
+    public partial class CartPage : BasePage
     {
-        public DetailsPage()
+        public CartPage()
         {
             InitializeComponent();
             BindingContext = App.Locator.DetailsViewModel;

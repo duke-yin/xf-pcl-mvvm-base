@@ -1,17 +1,3 @@
-/*
-  In App.xaml:
-  <Application.Resources>
-      <vm:ViewModelLocator xmlns:vm="clr-namespace:BaseSolution"
-                           x:Key="Locator" />
-  </Application.Resources>
-  
-  In the View:
-  DataContext="{Binding Source={StaticResource Locator}, Path=ViewModelName}"
-
-  You can also use Blend to do all this with the tool's support.
-  See http://www.galasoft.ch/mvvm
-*/
-
 using GalaSoft.MvvmLight.Ioc;
 using Microsoft.Practices.ServiceLocation;
 
@@ -32,7 +18,9 @@ namespace BaseSolution.Core.ViewModel
 
             SimpleIoc.Default.Register<BaseViewModel>();
             SimpleIoc.Default.Register<MainViewModel>();
-            SimpleIoc.Default.Register<DetailsViewModel>();
+            SimpleIoc.Default.Register<CartViewModel>();
+            SimpleIoc.Default.Register<MajorCategoriesViewModel>();
+            SimpleIoc.Default.Register<SettingsViewModel>();
         }
 
         public BaseViewModel BaseViewModel
@@ -51,11 +39,27 @@ namespace BaseSolution.Core.ViewModel
             }
         }
 
-        public DetailsViewModel DetailsViewModel
+        public CartViewModel DetailsViewModel
         {
             get
             {
-                return ServiceLocator.Current.GetInstance<DetailsViewModel>();
+                return ServiceLocator.Current.GetInstance<CartViewModel>();
+            }
+        }
+
+        public MajorCategoriesViewModel MajorCategoriesViewModel
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<MajorCategoriesViewModel>();
+            }
+        }
+
+        public SettingsViewModel SettingsViewModel
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<SettingsViewModel>();
             }
         }
         
