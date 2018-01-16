@@ -135,6 +135,9 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable\ic_rental_equipment.png" />
+    <AndroidResource Include="Resources\drawable\ic_settings.png" />
+    <AndroidResource Include="Resources\drawable\ic_shopping_cart.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\RentalQuotes.Core.csproj">
