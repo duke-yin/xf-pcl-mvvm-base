@@ -2,9 +2,9 @@
 
 <pages:BasePage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    xmlns:pages="clr-namespace:BaseSolution.Core.Pages;assembly=Core" 
-    xmlns:customUI="clr-namespace:BaseSolution.Core.CustomControls;assembly=Core" 
-    x:Class="BaseSolution.Core.Pages.MajorCategoriesPage" 
+    xmlns:pages="clr-namespace:SunstateEquip.RentalQuotes.Core.Pages;assembly=Core" 
+    xmlns:customUI="clr-namespace:SunstateEquip.RentalQuotes.Core.CustomControls;assembly=Core" 
+    x:Class="SunstateEquip.RentalQuotes.Core.Pages.MajorCategoriesPage" 
     Title="RENTAL EQUIPMENT">
 
     <ListView ItemsSource="{Binding MajorCategories}">

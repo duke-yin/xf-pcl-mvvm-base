@@ -40,10 +40,6 @@
       <Project>{8cc16f17-4a1d-4e62-bbfe-88f35f269bf8}</Project>
       <Name>Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
-      <Project>{0cae92a8-e260-4a09-8d52-52d32f40eee3}</Project>
-      <Name>Infrastructure</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

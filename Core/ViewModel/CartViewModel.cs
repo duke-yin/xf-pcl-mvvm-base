@@ -1,6 +1,6 @@
-﻿using BaseSolution.Core.Infrastructure.Services;
+﻿using SunstateEquip.RentalQuotes.Core.Infrastructure.Services;
 
-namespace BaseSolution.Core.ViewModel
+namespace SunstateEquip.RentalQuotes.Core.ViewModel
 {
     public class CartViewModel : BaseViewModel
     {

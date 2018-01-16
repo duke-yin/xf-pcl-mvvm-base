@@ -1,11 +1,11 @@
-﻿using BaseSolution.Core.CustomControls;
-using BaseSolution.iOS.Renderers;
+﻿using SunstateEquip.RentalQuotes.Core.CustomControls;
+using SunstateEquip.RentalQuotes.iOS.Renderers;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
 [assembly: ExportRenderer(typeof(CustomTabbedPage), typeof(CustomTabbedPageRenderer))]
-namespace BaseSolution.iOS.Renderers
+namespace SunstateEquip.RentalQuotes.iOS.Renderers
 {
     public class CustomTabbedPageRenderer : TabbedRenderer
     {

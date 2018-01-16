@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using GalaSoft.MvvmLight;
 
-namespace BaseSolution.Core.ViewModel
+namespace SunstateEquip.RentalQuotes.Core.ViewModel
 {
     public class BaseViewModel : ViewModelBase
     {

@@ -1,4 +1,4 @@
-﻿namespace BaseSolution.Core.Enums
+﻿namespace SunstateEquip.RentalQuotes.Core.Enums
 {
     public enum AppPages
     {

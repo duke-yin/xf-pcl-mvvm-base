@@ -1,5 +1,5 @@
 ﻿using System;
-namespace BaseSolution.Core.ViewModel
+namespace SunstateEquip.RentalQuotes.Core.ViewModel
 {
     public class SettingsViewModel : BaseViewModel
     {

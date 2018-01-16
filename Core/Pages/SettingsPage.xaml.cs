@@ -1,4 +1,4 @@
-﻿namespace BaseSolution.Core.Pages
+﻿namespace SunstateEquip.RentalQuotes.Core.Pages
 {
     public partial class SettingsPage : BasePage
     {

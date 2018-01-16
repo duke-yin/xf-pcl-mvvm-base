@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:customUI="clr-namespace:BaseSolution.Core.CustomControls;assembly=Core"
-    x:Class="BaseSolution.Core.App">   
+    xmlns:customUI="clr-namespace:SunstateEquip.RentalQuotes.Core.CustomControls;assembly=SunstateEquip.RentalQuotes.Core"
+    x:Class="SunstateEquip.RentalQuotes.Core.App">   
     <Application.Resources>
         <!-- Application resource dictionary -->
         <ResourceDictionary>

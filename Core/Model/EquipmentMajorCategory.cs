@@ -1,4 +1,4 @@
-﻿namespace BaseSolution.Core.Model
+﻿namespace SunstateEquip.RentalQuotes.Core.Model
 {
     public class EquipmentMajorCategory
     {

@@ -1,11 +1,11 @@
 ﻿using System.Collections.ObjectModel;
 using System.Windows.Input;
-using BaseSolution.Core.Enums;
-using BaseSolution.Core.Infrastructure.Services;
-using BaseSolution.Core.Model;
+using SunstateEquip.RentalQuotes.Core.Enums;
+using SunstateEquip.RentalQuotes.Core.Infrastructure.Services;
+using SunstateEquip.RentalQuotes.Core.Model;
 using Xamarin.Forms;
 
-namespace BaseSolution.Core.ViewModel
+namespace SunstateEquip.RentalQuotes.Core.ViewModel
 {
     public class MajorCategoriesViewModel: BaseViewModel
     {

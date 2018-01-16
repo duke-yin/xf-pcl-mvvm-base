@@ -1,7 +1,7 @@
-﻿using BaseSolution.Core.CustomControls;
+﻿using SunstateEquip.RentalQuotes.Core.CustomControls;
 using Xamarin.Forms;
 
-namespace BaseSolution.Core.Pages
+namespace SunstateEquip.RentalQuotes.Core.Pages
 {
     public partial class MainPage : CustomTabbedPage
     {

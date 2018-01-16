@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace BaseSolution.Core.CustomControls
+namespace SunstateEquip.RentalQuotes.Core.CustomControls
 {
     public class CustomNavigationPage : NavigationPage
     {

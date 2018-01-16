@@ -1,12 +1,11 @@
 ﻿using GalaSoft.MvvmLight.Ioc;
-using BaseSolution.Core.Enums;
-using BaseSolution.Core.Pages;
-using BaseSolution.Core.ViewModel;
+using SunstateEquip.RentalQuotes.Core.Enums;
+using SunstateEquip.RentalQuotes.Core.Pages;
+using SunstateEquip.RentalQuotes.Core.ViewModel;
 using Xamarin.Forms;
-using BaseSolution.Core.Infrastructure.Services;
-using BaseSolution.Core.CustomControls;
+using SunstateEquip.RentalQuotes.Core.Infrastructure.Services;
 
-namespace BaseSolution.Core
+namespace SunstateEquip.RentalQuotes.Core
 {
     public partial class App : Application
     {

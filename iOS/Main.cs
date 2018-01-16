@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace BaseSolution.iOS
+namespace SunstateEquip.RentalQuotes.iOS
 {
     public class Application
     {

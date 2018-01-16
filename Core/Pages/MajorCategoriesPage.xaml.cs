@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-namespace BaseSolution.Core.Pages
+namespace SunstateEquip.RentalQuotes.Core.Pages
 {
     public partial class MajorCategoriesPage : BasePage
     {

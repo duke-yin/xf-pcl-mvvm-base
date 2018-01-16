@@ -7,8 +7,8 @@
     <ProjectGuid>{D00D6E0B-94A2-430E-A802-279C6E49DF91}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BaseSolution.iOS</RootNamespace>
-    <AssemblyName>BaseSolution.iOS</AssemblyName>
+    <RootNamespace>SunstateEquip.RentalQuotes.iOS</RootNamespace>
+    <AssemblyName>SunstateEquip.RentalQuotes.iOS</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
@@ -28,6 +28,7 @@
     <MtouchArch>x86_64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
+    <AssemblyName>SunstateEquip.RentalQuotes.iOS</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType></DebugType>
@@ -42,6 +43,7 @@
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <AssemblyName>SunstateEquip.RentalQuotes.iOS</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType></DebugType>
@@ -55,6 +57,7 @@
     <MtouchArch>x86_64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
+<AssemblyName>RentalQuotes.iOS</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -76,6 +79,7 @@
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
+    <AssemblyName>SunstateEquip.RentalQuotes.iOS</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -119,18 +123,18 @@
     <Compile Include="Renderers\CustomTabbedPageRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Core\Core.csproj">
-      <Project>{349FBCA8-C3B4-44DC-A0F0-DFD6829B8736}</Project>
-      <Name>Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\ic_rental_equipment.png" />
     <BundleResource Include="Resources\ic_rental_equipment%402x.png" />
     <BundleResource Include="Resources\ic_settings.png" />
     <BundleResource Include="Resources\ic_settings%402x.png" />
     <BundleResource Include="Resources\ic_shopping_cart.png" />
     <BundleResource Include="Resources\ic_shopping_cart%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\RentalQuotes.Core.csproj">
+      <Project>{349FBCA8-C3B4-44DC-A0F0-DFD6829B8736}</Project>
+      <Name>RentalQuotes.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

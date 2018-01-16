@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using BaseSolution.Core.Enums;
+using SunstateEquip.RentalQuotes.Core.Enums;
 using Xamarin.Forms;
 
-namespace BaseSolution.Core.Infrastructure.Services
+namespace SunstateEquip.RentalQuotes.Core.Infrastructure.Services
 {
     public class NavigationService : INavigationService
     {

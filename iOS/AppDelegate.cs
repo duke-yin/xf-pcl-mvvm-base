@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Foundation;
 using UIKit;
 
-namespace BaseSolution.iOS
+namespace SunstateEquip.RentalQuotes.iOS
 {
     [Register("AppDelegate")]
     public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate

@@ -1,7 +1,7 @@
-﻿using BaseSolution.Core.ViewModel;
+﻿using SunstateEquip.RentalQuotes.Core.ViewModel;
 using Xamarin.Forms;
 
-namespace BaseSolution.Core.Pages
+namespace SunstateEquip.RentalQuotes.Core.Pages
 {
     public partial class BasePage : ContentPage
     {

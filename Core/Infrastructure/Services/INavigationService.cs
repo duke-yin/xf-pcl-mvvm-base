@@ -1,8 +1,8 @@
 ﻿using System;
-using BaseSolution.Core.Enums;
+using SunstateEquip.RentalQuotes.Core.Enums;
 using Xamarin.Forms;
 
-namespace BaseSolution.Core.Infrastructure.Services
+namespace SunstateEquip.RentalQuotes.Core.Infrastructure.Services
 {
     public interface INavigationService
     {

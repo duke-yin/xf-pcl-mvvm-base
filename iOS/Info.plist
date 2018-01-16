@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>BaseSolution</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.neudesic.basesolution</string>
+	<string>com.sunstateequip.rentalquotes</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -41,6 +41,6 @@
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>CFBundleName</key>
-	<string>BaseSolution</string>
+	<string>RentalQuotes</string>
 </dict>
 </plist>
