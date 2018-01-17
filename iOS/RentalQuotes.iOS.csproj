@@ -19,7 +19,7 @@
     <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Duke Yin (6RLNHQW436)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
@@ -29,6 +29,7 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
     <AssemblyName>SunstateEquip.RentalQuotes.iOS</AssemblyName>
+    <CodesignProvision>VS: com.sunstateequip.rentalquotes Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType></DebugType>
@@ -36,7 +37,7 @@
     <OutputPath>bin\iPhone\Release</OutputPath>
     <DefineConstants></DefineConstants>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Duke Yin (6RLNHQW436)</CodesignKey>
     <MtouchVerbosity></MtouchVerbosity>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
@@ -44,6 +45,8 @@
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <AssemblyName>SunstateEquip.RentalQuotes.iOS</AssemblyName>
+    <BuildIpa>true</BuildIpa>
+    <CodesignProvision>VS: com.sunstateequip.rentalquotes Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType></DebugType>
@@ -51,13 +54,14 @@
     <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Duke Yin (6RLNHQW436)</CodesignKey>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
 <AssemblyName>RentalQuotes.iOS</AssemblyName>
+<CodesignProvision>VS: com.sunstateequip.rentalquotes Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -67,7 +71,7 @@
     <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Duke Yin (6RLNHQW436)</CodesignKey>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
@@ -80,6 +84,7 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
     <AssemblyName>SunstateEquip.RentalQuotes.iOS</AssemblyName>
+    <CodesignProvision>VS: com.sunstateequip.rentalquotes Development</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
