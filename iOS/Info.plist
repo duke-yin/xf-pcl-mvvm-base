@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>BaseSolution</string>
+	<string>Rental Quotes</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.sunstateequip.rentalquotes</string>
 	<key>CFBundleShortVersionString</key>
