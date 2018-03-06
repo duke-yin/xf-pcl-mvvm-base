@@ -135,14 +135,6 @@
       <Project>{349FBCA8-C3B4-44DC-A0F0-DFD6829B8736}</Project>
       <Name>Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Domain\Domain.csproj">
-      <Project>{8CC16F17-4A1D-4E62-BBFE-88F35F269BF8}</Project>
-      <Name>Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Domain.Impl.Mobile\Domain.Impl.Mobile.csproj">
-      <Project>{20EECFDD-FCAF-4F29-A372-0B500DA765D0}</Project>
-      <Name>Domain.Impl.Mobile</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
